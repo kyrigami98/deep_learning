@@ -66,11 +66,11 @@ class classificationReseauNeuronne(nn.Module):
 # Define validation function 
 def validation(model, testloader, criterion, device):
 
-"""
-Les ensembles de données de validation peuvent être utilisés pour la régularisation par arrêt anticipé 
-(arrêt de la formation lorsque l'erreur sur l'ensemble de données de validation augmente)
+    '''
+    Les ensembles de données de validation peuvent être utilisés pour la régularisation par arrêt anticipé 
+    (arrêt de la formation lorsque l'erreur sur l'ensemble de données de validation augmente)
+    '''
 
-"""
     # La valeur de perte implique dans quelle mesure un certain modèle se comporte bien ou mal après chaque itération d'optimisation. 
     # Idéalement, on s'attendrait à une réduction de la perte après chaque ou plusieurs itérations.
     test_loss = 0
