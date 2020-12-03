@@ -27,6 +27,6 @@ Ce projet a pour but d'identifier une image et la classifier selon son type de f
 
 - Lancer l'entrainement 
 
-`python train.py flower'
+`python train.py flower`
 
 
